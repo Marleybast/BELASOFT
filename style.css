@@ -1,0 +1,447 @@
+/*ESTILO GERAL  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  font-size: 30px;
+  justify-content: space-between;
+
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+.flex {
+  display: flex;
+
+
+
+}
+
+.belasoftcontato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(241, 192, 215);
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+h2.titulo {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+h2.titulo span {
+  color: rgb(170, 143, 160);
+
+
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+  padding: -400px 1%;
+
+}
+
+header>.interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+
+}
+
+header a {
+  color: rgb(248, 242, 248);
+  text-decoration: none;
+
+
+}
+
+header a:hover {
+  color: rgb(235, 129, 217);
+  transform: scale(1.10);
+  display: inline-block;
+  transition: .2s;
+
+}
+
+header nav ul {
+  list-style-type: none;
+
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 30px;
+
+
+
+}
+
+/* ESTILO DO MENU MOBILE */
+.menu-mobile{
+  background-color: brown;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 70%;
+}
+.menu-mobile nav ul a{
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 4%;
+  
+}
+
+.belasoftcontato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(241, 192, 215);
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+
+
+}
+
+header .belasoftcontato button:hover {
+
+  box-shadow: 0px 0px 9x pink;
+  transform: scale(1.10);
+  display: inline-block;
+  transition: .2s;
+}
+
+logo {
+
+  background-position: left center;
+}
+
+img {
+
+  height: 300px;
+  display: block;
+  margin-left: autopx;
+  margin-right: auto;
+
+
+}
+
+/*estilo do topo do site */
+section.topo do site {
+  padding: 40px 4%;
+}
+
+section.topo do site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+
+}
+
+.txt-topo-site h1 {
+  color: rgb(250, 249, 250);
+  font-size: 38px;
+  line-height: 42px;
+
+
+}
+
+.txt-topo-site h1 span {
+  color: rgb(170, 143, 160);
+  font-size: 80px;
+
+}
+
+.txt-topo-site p {
+  color: white;
+  margin: 40px 0;
+}
+
+/* ESTILO DO QUEM SOU EU */
+
+section.especialidades {
+
+  padding: 40px 4%;
+}
+
+section.especialidades .flex {
+
+  padding: 40px 4%;
+  gap: 60px
+}
+
+
+
+
+
+.especialidades .especialidades-box {
+  color: azure;
+  padding: 40px;
+  border: 2px solid white;
+  margin-top: 25x;
+  border-radius: 20px;
+
+
+}
+
+.especialidades .especialidades-box:hover {
+
+  transform: scale(1.05);
+  box-shadow: 0 0 8;
+}
+
+.especialidades .especialidades-box i {
+  font-size: 60px;
+  color: rgb(241, 192, 215);
+  display: flex;
+  padding: 40px;
+
+}
+
+.especialidades .especialidades-box h3 {
+
+  font-size: 28px;
+  margin: 15px 0;
+
+}
+
+.especialidades .especialidades-box h4 {
+
+  font-size: 28px;
+  margin: 15px 0;
+
+}
+
+.especialidades .especialidades-box h5 {
+
+  font-size: 28px;
+  margin: 15px 0;
+
+}
+
+/*  footer-estilo do rodapé */
+
+footer {
+  padding: 60px 4%;
+  box-shadow: 0 0 40px 10px #f1f1f11d;
+
+}
+
+footer .flex {
+  justify-content: space-between;
+
+
+}
+
+.social button {
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(248, 162, 234);
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
+
+}
+
+@media screen and (max-width: 1020px){
+  /* CLASSES GERAIS */
+  .flex{
+    flex-direction: column;
+  }
+
+
+  /* cabeçalho */ 
+  .menu-desktop, belasoftcontato{
+    display: none;
+
+}
+
+/* topo do site */
+
+}
+
+.txt-topo-site h1 {
+  color: rgb(250, 249, 250);
+  font-size: 32px;
+}
+
+/* ESTILO DO FORMULARIO DE CONTATO */
+section.formulario{
+  padding: 80px 4%;
+}
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+margin-top: 40px;
+}
+
+form input, form textarea{
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+form input::placeholder{
+  color: rgb(139, 139, 139);
+}
+
+form textarea{
+  resize: none;
+  max-height: 200px;
+}
+
+form .btn-enviar{
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input{
+  width: 120px;
+background-color: rgb(190, 152, 182);
+color: #000;
+font-weight: 700;
+cursor: pointer;
+transition: .2s;
+}
+
